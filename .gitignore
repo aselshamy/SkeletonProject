@@ -3,5 +3,6 @@ out
 .idea
 *.log
 .gradle
+postgres-data
 
 
