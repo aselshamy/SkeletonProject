@@ -9,7 +9,6 @@ services:
       - db
     ports:
       - "8080:8080"
-    #entrypoint: ["./wait-for-it.sh","db:5432", "--"]
     volumes:
       - .:/app
     command: gradle bootRun
